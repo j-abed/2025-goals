@@ -1,0 +1,17 @@
+/* Add additional styles for themes and statistics */
+.stats-section {
+    margin: 20px 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.goal-card.completed {
+    text-decoration: line-through;
+    background: #e0e0e0;
+}
+
+.goal-card .complete-btn {
+    background: green;
+    color: white;
+    margin-right: 10px;
+}

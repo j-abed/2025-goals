@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 Goals Tracker</title>
+    <link rel="stylesheet" href="goals.css">
+</head>
+<body>
+    <div class="container">
+        <h1>2025 Goals Tracker</h1>
+        <div class="input-section">
+            <input id="goal-input" type="text" placeholder="Enter your goal">
+            <button id="add-goal-btn">Add Goal</button>
+            <label for="color-picker">Theme:</label>
+            <select id="color-picker">
+                <option value="white">Default</option>
+                <option value="#f8d7da">Red</option>
+                <option value="#d4edda">Green</option>
+                <option value="#d1ecf1">Blue</option>
+                <option value="#fff3cd">Yellow</option>
+            </select>
+        </div>
+        <div class="stats-section">
+            <p>Total Goals: <span id="total-count">0</span></p>
+            <p>Completed Goals: <span id="completed-count">0</span></p>
+            <p>Active Goals: <span id="active-count">0</span></p>
+        </div>
+        <div id="goals-display" class="goals-display"></div>
+    </div>
+    <script src="goals.js"></script>
+</body>
+</html>
